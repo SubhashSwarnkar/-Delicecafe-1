@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero-image{
+    background-image: url(hero\ section\ image.png);
+ background-repeat: no-repeat;
+
+
+
+}
+
+#nav-button{
+    border-radius: 60px;
+background: #F6D042;
+}
+.Our-Philosophy-is {
+    color: #FFF;
+    font-family: 'Kalam', cursive;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18%;
+  }
+  .food {
+    color: #F6D042;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27vw;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 2%;
+  }
+
+  #card-title1{
+    color: #000;
+font-family: Kalam;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  /* Media Queries for responsiveness */
+  @media (max-width: 1200px) {
+    .Our-Philosophy-is {
+      font-size: 5vw;
+      margin-top: 20%;
+    }
+    .food {
+      font-size: 30vw;
+    }
+  }
+  @media (max-width: 992px) {
+    .Our-Philosophy-is {
+      font-size: 6vw;
+      margin-top: 22%;
+    }
+    .food {
+      font-size: 35vw;
+    }
+  }
+  @media (max-width: 768px) {
+    .Our-Philosophy-is {
+      font-size: 7vw;
+      margin-top: 24%;
+    }
+    .food {
+      font-size: 40vw;
+    }
+  }
+  @media (max-width: 576px) {
+    .Our-Philosophy-is {
+      font-size: 8vw;
+      margin-top: 26%;
+    }
+    .food {
+      font-size: 40vw;
+    }
+  }
+  @media (max-width: 360px) {
+    .Our-Philosophy-is {
+      font-size: 10vw;
+      margin-top: 28%;
+    }
+    .food {
+      font-size: 50vw;
+    }
+  }
+
+  .follow-us p, .follow-us h2 {
+    margin: 0;
+}
+.follow-us img {
+    width: 70%;
+    height: auto;
+    margin: 0.1rem;
+    border-radius: 0.25rem;
+}
+.follow-us .col img {
+    margin-bottom: 1rem;
+}
+.follow-us .col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.navbar-nav .nav-link.active {
+  color: blue !important;
+}
+.slider {
+  animation: slidein 30s linear infinite;
+  white-space: nowrap;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.logo-item img {
+  width: 70px;
+  height: auto;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.logo-item p {
+  margin: 0;
+}
+
+@keyframes slidein {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .logos {
+    flex-direction: column;
+  }
+
+  .logo-item {
+    width: 100%;
+    margin: 0.5rem 0;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .logos {
+    flex-direction: row;
+  }
+
+  .logo-item {
+    width: calc(100% / 5);
+  }
+}
+
+.heading-1{
+  color: #F6D042;
+font-family: Kalam;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.heading-2{
+  color: #000;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.pra1{
+  color: #667280;
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+}
+.img-container {
+  padding: 0 15px;
+}
+.our-reeach-number{color: var(--Option-1-Color_1, #F6D042);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+.our-reeach-text{
+  color: var(--Option-1-Color_3, #000);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.nav-link1{
+  color: #F6D042;
+text-decoration: none;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.star1{
+  width: 12.585px;
+height: 12px;
+
+}
+.customer-review-section{
+  background-color: #F6D042 ;
+}
+
